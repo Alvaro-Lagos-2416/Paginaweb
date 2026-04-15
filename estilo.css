@@ -3,20 +3,16 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body{
     background-color: white;
-}
-
-a,li{
     font-family: 'Times New Roman', Times, serif;
-    color: black;
 }
 
-.logo-header img{
-    width: 120px;
-    height: 50px;
+a, li {
+    color: black;
 }
 
 header{
@@ -27,69 +23,96 @@ header{
     padding: .5rem 2rem;
 }
 
+.logo-header img{
+    width: 120px;
+    height: 50px;
+}
+
 .nav-menu ul{
     display: flex;
     align-items: center;
 }
 
 .nav-menu li{
-    margin-right: 1.5rem;
+    margin-left: 1.5rem;
 }
 
 h1{
     text-align: center;
     color: blueviolet;
     background-color: yellow;
+    padding: 5px 15px;
 }
 
+h2{
+    text-align: center;
+    margin: 30px 0 15px 0;
+    color: black;
+}
 
 .recuadro{
    display: flex;
    justify-content: center;
    gap: 30px;
    flex-wrap: wrap;
+   padding: 20px;
 }
 
 .cuerpo_recuadro{
-    width: 500px;
+    width: 350px;
     border: 1px solid black;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    font-family: 'Times New Roman', Times, serif;
     background-color: white;
+    padding: 15px;
+    text-align: center;
 }
 
 .img_recuadro{
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
     display: block;
-    align-items: center;
-    margin: auto;
-}
-
-h2{
-    text-align: center;
     margin-bottom: 15px;
-    color: black;
+    border-radius: 4px;
 }
 
 .recuadro-galeria{
    display: flex;
    justify-content: center;
-   gap: 30px;
+   gap: 20px;
    flex-wrap: wrap;
+   padding: 20px;
 }
-
 
 .item-galeria{
     border-radius: 8px;
+    overflow: hidden;
     height: 200px;
+    width: 250px;
 }
+
+.item-galeria img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 
 .contenedor_final{
     background-color: black;
     color: white;
+    padding: 40px 20px;
+    margin-top: 50px;
+}
+
+.c_f_cuerpo{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .c_f_datos{
@@ -97,11 +120,16 @@ h2{
     min-width: 250px;
 }
 
-.c_f_cuerpo{
-    display: flex;
-    justify-content: space-around;
+.c_f_datos h4{
+    margin-bottom: 10px;
+    color: aqua;
 }
 
 .link_github{
-    color: white;
+    color: aqua;
+    font-weight: bold;
+}
+
+.link_github:hover{
+    text-decoration: underline;
 }
