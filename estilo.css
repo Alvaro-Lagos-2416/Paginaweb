@@ -1,0 +1,107 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: white;
+}
+
+a,li{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.logo-header img{
+    width: 120px;
+    height: 50px;
+}
+
+header{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 2rem;
+}
+
+.nav-menu ul{
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu li{
+    margin-right: 1.5rem;
+}
+
+h1{
+    text-align: center;
+    color: blueviolet;
+    background-color: yellow;
+}
+
+
+.recuadro{
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+   flex-wrap: wrap;
+}
+
+.cuerpo_recuadro{
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+}
+
+.img_recuadro{
+    width: 100px;
+    height: 100px;
+    display: block;
+    align-items: center;
+    margin: auto;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.recuadro-galeria{
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+   flex-wrap: wrap;
+}
+
+
+.item-galeria{
+    border-radius: 8px;
+    height: 200px;
+}
+
+.contenedor_final{
+    background-color: black;
+    color: white;
+}
+
+.c_f_datos{
+    margin-bottom: 20px;
+    min-width: 250px;
+}
+
+.c_f_cuerpo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.link_github{
+    color: white;
+}
